@@ -57,7 +57,7 @@ Rather browse? Search [nativebloom.dev](https://nativebloom.dev/blocks?blockq=ci
 ### 3. Cook
 
 ```bash
-npx create-expo-app@latest agent-crew
+npx create-expo-app@latest agent-crew --template default@sdk-58
 cd agent-crew && npm run reset-project
 ```
 
@@ -89,7 +89,7 @@ This is where it stops being a copy.
 ## Run it
 
 ```bash
-npx degit nativebloom/cookbook/recipes/agent-crew agent-crew
+npx degit native-bloom/native-bloom-cookbook/recipes/agent-crew agent-crew
 cd agent-crew && npm install && npx expo start
 ```
 
